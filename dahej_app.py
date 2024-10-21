@@ -26,6 +26,15 @@ if page== 'Home':
         st.write("Asking for dowry is a criminal offence!")
 
 
+if page == 'Contribute data':
+    st.title("Contribute Data")
 
+    new_age = st.text_input("Enter age")
+    new_prof = st.text_input("Enter profession")
+    new_sal = st.text_input("Enter salary")
+    dahej = st.text_input("Enter total amount of gifts")
+
+if page == 'About us':
+    st.title("About Us")
 
 
